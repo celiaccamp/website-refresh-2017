@@ -1,0 +1,19 @@
+/*
+    ./.babelrc
+*/
+{
+  "plugins": [
+    "transform-class-properties",
+    "transform-decorators-legacy"
+  ],
+  "presets": [
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ],
+    "react",
+    "stage-0"
+  ],
+}

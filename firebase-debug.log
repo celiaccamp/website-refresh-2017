@@ -1,0 +1,43 @@
+[debug] [2017-08-24T18:26:23.336Z] ----------------------------------------------------------------------
+[debug] [2017-08-24T18:26:23.338Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-08-24T18:26:23.339Z] CLI Version:   3.9.2
+[debug] [2017-08-24T18:26:23.339Z] Platform:      darwin
+[debug] [2017-08-24T18:26:23.339Z] Node Version:  v6.10.3
+[debug] [2017-08-24T18:26:23.339Z] Time:          Thu Aug 24 2017 11:26:23 GMT-0700 (PDT)
+[debug] [2017-08-24T18:26:23.340Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-24T18:26:23.353Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-24T18:26:23.353Z] > authorizing via signed-in user
+[debug] [2017-08-24T18:26:23.355Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-24T18:26:23.355Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/YD-ZI1YYlgsQ0EbeTApruRKVquzrce7BEuIszrmAPGNGSsmtpL4Pze8FtYRPqGFg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Aug 24 2017 11:26:23 GMT-0700 (PDT)
+[debug] [2017-08-24T18:26:23.603Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-24T18:26:23.606Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/camp-celiac  
+ Thu Aug 24 2017 11:26:23 GMT-0700 (PDT)
+[debug] [2017-08-24T18:26:24.026Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-24T18:26:24.027Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/camp-celiac/tokens  
+ Thu Aug 24 2017 11:26:24 GMT-0700 (PDT)
+[debug] [2017-08-24T18:26:24.888Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/nathanielcorley/Projects/celiac-camp/website-refresh-2017'...
+[info] 
+[debug] [2017-08-24T18:26:24.894Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/camp-celiac  
+ Thu Aug 24 2017 11:26:24 GMT-0700 (PDT)
+[debug] [2017-08-24T18:26:25.707Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-24T18:26:25.708Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/91921914286/clients/_:getWebAppConfig  
+ Thu Aug 24 2017 11:26:25 GMT-0700 (PDT)
+[debug] [2017-08-24T18:26:26.294Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-24T18:26:26.322Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:17)
+    at Server.g (events.js:292:16)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:185:7)
+    at emitListeningNT (net.js:1284:10)
+    at _combinedTickCallback (internal/process/next_tick.js:77:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[error] 
+[error] Error: An unexpected error has occurred.

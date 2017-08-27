@@ -1,0 +1,176 @@
+// external imports
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+
+/** Global Classes **/
+
+// override paragraph formatting
+p {
+  line-height: 1.7em !important;
+  font-size: medium !important;
+}
+
+// classes for hiding content at screen size breakpoints
+@media only screen and (max-width: 991px) {
+  .computer-only {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .large-screen-only {
+    display: none !important;
+  }
+}
+
+/** Main Website Classes **/
+
+// classes for the primary nav bar
+.main-navigation {
+  .header.item{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    .image { width: 200px; }
+  }
+}
+
+// grid that wraps main content
+div.main-content-wrapper {
+  margin-top: 2em;
+  .content-container {
+    @media (min-width: 550px) {
+      min-width: 95%
+    }
+  }
+}
+
+// classes for camp watch pane
+.camp-watch {
+  .divider {
+    margin-top: 0px;
+  }
+}
+
+// styling the footer
+.footer {
+  .celiac-community-logo img {
+    height: 80px !important;
+    margin: auto;
+  }
+  .sponsors img {
+    height: 40px !important;
+  }
+}
+
+// camper registration page classes
+.registration {
+  .center-wrapper {
+    text-align: center;
+  }
+  .steps {
+    text-align: left;
+  }
+}
+
+// styling the address card
+.address-card {
+  margin: auto !important;
+  text-align: center;
+}
+
+// styling the testimonials
+.testimonial {
+  .quote-footer { text-align: right; }
+  .left-quote {
+    margin-top: -15px;
+    margin-right: 10px;
+  }
+  .right-quote {
+    margin-bottom: -15  px;
+    margin-left: 10px;
+  }
+  padding-top: 7px;
+}
+
+// styling for the gallery tab
+.gallery {
+  .link-card {
+    .content {
+      text-align: center;
+      div.spacer{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+// override border radius for image gallerys
+.image-gallery {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/** Admin Panel classes **/
+.admin-header {
+  .header.item{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    .image { width: 200px; }
+  }
+  .user.large.icon {
+    margin-top: 18px;
+    margin-right: -32px;
+  }
+  .user-dropdown {
+    margin-right: 5vw;
+    padding-left: 35px !important;
+  }
+}
+
+.main-admin-content-wrapper { margin-top: 15px; }
+
+.admin-navigation {
+  .divider {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+  }
+  .item {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.component-editor {
+  .save {
+    margin-left: 5px;
+    margin-top: -3px;
+  }
+  .wrapper-class {
+    // taken from Semantic UI documentation for textarea
+   -webkit-appearance: none;
+   tap-highlight-color: rgba(255, 255, 255, 0);
+   padding: 0.78571429em 1em;
+   background: #FFFFFF;
+   border: 1px solid rgba(34, 36, 38, 0.15);
+   outline: none;
+   color: rgba(0, 0, 0, 0.87);
+   border-radius: 0.28571429rem;
+   box-shadow: 0em 0em 0em 0em transparent inset;
+   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
+   transition: color 0.1s ease, border-color 0.1s ease;
+  }
+  .editor-class {
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif !important;
+    color: rgba(0,0,0,.87) !important;
+    cursor: text;
+  }
+  .link-group-divider {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .divider-delete {
+    margin-top: 5px;
+    position: absolute;
+    font-size: 0.65em;
+    z-index: 1;
+  }
+}
