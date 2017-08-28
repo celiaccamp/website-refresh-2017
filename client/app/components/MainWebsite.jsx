@@ -3,7 +3,7 @@
 */
 import React from 'react';
 import { Grid, Container, Divider, Segment, Loader, Dimmer } from 'semantic-ui-react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, withRouter } from 'react-router-dom';
 import { ref } from '../firebase';
 import MainNavigation from './MainNavigation';
 import CampWatch from './CampWatch';
@@ -23,19 +23,26 @@ import DonationsAndPayment from './DonationsAndPayment';
 import ThankYou from './ThankYou';
 import Calendar from './Calendar';
 
-export default class App extends React.Component {
+class MainWebsite extends React.Component {
+  state = {}
+
   componentDidMount() {
     ref.on('value', (snapshot) => {
       this.setState({ data: snapshot.val() });
     });
   }
+
+  handleClick = (e, { name }) => {
+    this.props.history.push(`/${name}`);
+  }
+
   render() {
     return (
       <div>
-        <MainNavigation {...this.state} />
+        <MainNavigation {...this.state} handleClick={this.handleClick} />
         <div className="main-content-wrapper">
           <Container className="content-container">
-            {!this.state || !this.state.data ? <Dimmer active><Loader /></Dimmer> : (
+            {!this.state || !this.state.data ? <Dimmer active><Loader content="Loading" /></Dimmer> : (
               <Grid padded stackable>
                 <Grid.Row>
                   <Grid.Column width={11}>
@@ -75,3 +82,5 @@ export default class App extends React.Component {
     );
   }
 }
+
+export default withRouter(MainWebsite);

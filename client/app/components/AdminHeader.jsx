@@ -72,26 +72,25 @@ class AdminHeader extends React.Component {
             />
           </Menu.Item>
           {
-        authed && (
-          <Menu.Menu position="right">
-            <Icon name="user" size="large" className="user-icon" />
-            <Dropdown item simple text={user.email} className="user-dropdown" >
-              <Dropdown.Menu>
-                <Dropdown.Item onClick={logout}>
-                  <Icon name="log out" />
-                  Log Out
-                </Dropdown.Item>
-                <Dropdown.Item onClick={this.handleResetPassword}>
-                  <Icon name="mail" />
-                  Change Password
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </Menu.Menu>
-        )
-      }
-    )
-    </Menu>
+            authed && (
+              <Menu.Menu position="right">
+                <Icon name="user" size="large" className="user-icon" />
+                <Dropdown item simple text={user.email} className="user-dropdown" >
+                  <Dropdown.Menu>
+                    <Dropdown.Item onClick={logout}>
+                      <Icon name="log out" />
+                      Log Out
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={this.handleResetPassword}>
+                      <Icon name="mail" />
+                      Change Password
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+              </Menu.Menu>
+            )
+          }
+        </Menu>
       </div>
     );
   }

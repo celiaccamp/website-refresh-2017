@@ -3,7 +3,7 @@ import { Menu, Divider } from 'semantic-ui-react';
 
 const AdminNavigation = ({ handleSelectedChange }) => (
   <div className="admin-navigation">
-    <Menu vertical fluid borderless>
+    <Menu vertical fluid borderless attached="top">
       <Menu.Item
         header
       >

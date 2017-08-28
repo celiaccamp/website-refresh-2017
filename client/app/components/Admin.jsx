@@ -170,8 +170,10 @@ export default class Admin extends React.PureComponent {
             cancel={() => { this.setState({ confirmation: false }); }}
           >Are you sure you want to switch pages? Any changes will be lost</ConfirmationModal>
         }
-        {!pages[selected].data && <Dimmer active><Loader /></Dimmer>}
+        {!pages[selected].data && <Dimmer active><Loader content="Loading Dashboard" /></Dimmer>}
+
         <AdminHeader authed={this.state.authed} user={this.state.user} />
+
         <div className="main-admin-content-wrapper">
           <Grid padded stackable>
             <Grid.Row>

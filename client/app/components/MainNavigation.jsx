@@ -3,16 +3,16 @@
 */
 import React from 'react';
 import { Dropdown, Image, Menu, Button } from 'semantic-ui-react';
-import { withRouter } from 'react-router-dom';
 import LOGO_WITH_TITLE from '../assets/images/logo-with-title.png';
 
-const MainNavigation = withRouter(({ history, data }) => (
+const MainNavigation = ({ data, handleClick }) => (
   <div className="main-navigation">
-    <Menu stackable>
+    <Menu stackable style={{ borderRadius: '0px' }}>
       <Menu.Item
         header
         as="a"
-        onClick={() => history.push('/home')}
+        onClick={handleClick}
+        name="home"
       >
         <Image
           src={LOGO_WITH_TITLE}
@@ -20,7 +20,8 @@ const MainNavigation = withRouter(({ history, data }) => (
       </Menu.Item>
       <Menu.Item
         as="a"
-        onClick={() => history.push('/home')}
+        onClick={handleClick}
+        name="home"
       >
           Home
         </Menu.Item>
@@ -28,19 +29,22 @@ const MainNavigation = withRouter(({ history, data }) => (
         <Dropdown.Menu>
           <Dropdown.Item
             as="a"
-            onClick={() => history.push('/camperregistration')}
+            onClick={handleClick}
+            name="camperregistration"
           >
               Camper Registration
             </Dropdown.Item>
           <Dropdown.Item
             as="a"
-            onClick={() => history.push('/juniorcounselorregistration')}
+            onClick={handleClick}
+            name="juniorcounselorregistration"
           >
               Junior Counselor Registration
             </Dropdown.Item>
           <Dropdown.Item
             as="a"
-            onClick={() => history.push('/counselorregistration')}
+            onClick={handleClick}
+            name="counselorregistration"
           >
               Counselor Registration
             </Dropdown.Item>
@@ -50,19 +54,23 @@ const MainNavigation = withRouter(({ history, data }) => (
         <Dropdown.Menu>
           <Dropdown.Item
             as="a"
-            onClick={() => history.push('/faq')}
+            onClick={handleClick}
+            name="faq"
+            color="blue"
           >
               FAQ
             </Dropdown.Item>
           <Dropdown.Item
             as="a"
-            onClick={() => history.push('/vendorinformation')}
+            onClick={handleClick}
+            name="vendorinformation"
           >
               Vendor Information
             </Dropdown.Item>
           <Dropdown.Item
             as="a"
-            onClick={() => history.push('/contactinformation')}
+            onClick={handleClick}
+            name="contactinformation"
           >
               Contact Information
             </Dropdown.Item>
@@ -72,19 +80,22 @@ const MainNavigation = withRouter(({ history, data }) => (
         <Dropdown.Menu>
           <Dropdown.Item
             as="a"
-            onClick={() => history.push('/whatpeoplesay')}
+            onClick={handleClick}
+            name="whatpeoplesay"
           >
             What People Say
           </Dropdown.Item>
           <Dropdown.Item
             as="a"
-            onClick={() => history.push('/samplemenu')}
+            onClick={handleClick}
+            name="samplemenu"
           >
             Sample Menu
           </Dropdown.Item>
           <Dropdown.Item
             as="a"
-            onClick={() => history.push('/gallery')}
+            onClick={handleClick}
+            name="gallery"
           >
             Gallery
           </Dropdown.Item>
@@ -92,7 +103,8 @@ const MainNavigation = withRouter(({ history, data }) => (
       </Dropdown>
       <Menu.Item
         as="a"
-        onClick={() => history.push('/donationsandpayment')}
+        onClick={handleClick}
+        name="donationsandpayment"
       >
           Donations & Payment
         </Menu.Item>
@@ -120,6 +132,6 @@ const MainNavigation = withRouter(({ history, data }) => (
       </Menu.Menu>
     </Menu>
   </div>
-  ));
+);
 
 export default MainNavigation;

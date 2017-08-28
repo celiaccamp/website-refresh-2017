@@ -1,39 +1,80 @@
 import React from 'react';
 import { stateToHTML } from 'draft-js-export-html';
 import { convertFromRaw } from 'draft-js';
+import { Button } from 'semantic-ui-react';
 import { trim } from 'lodash';
-import { Link } from 'react-router-dom';
+import { Link, Router, withRouter } from 'react-router-dom';
+import { enableUniqueIds } from 'react-html-id';
 
-const DangerousComponent = ({ value, text, checkEmpty }) => {
-  let html = stateToHTML(convertFromRaw(JSON.parse(value)));
+const ReactDOMServer = require('react-dom/server');
 
-  // check for celiac camp link and change it to internal
-  if (html) {
-    const re = /<a href="http:\/{2}w{3}\.celiaccamp\.com\/([a-z]*).*">(.*)<\/a>/;
-    const match = re.exec(html);
-    if (match) {
-      html = html.replace(match[0], <Link to={match[1]}>{match[2]}</Link>);
-      console.log(html);
+class DangerousComponent extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    // Enable Unique ID support for this class
+    enableUniqueIds(this);
+
+    let html = stateToHTML(convertFromRaw(JSON.parse(props.value)));
+
+    const linkList = [];
+
+    // check for celiac camp link and change it to internal
+    const re = /<a [^<>]*?(?=href)href="http:\/{2}w{3}\.celiaccamp\.com\/([-a-z]*)[^<>]*?>(.*?)<\/a>/;
+    while (re.test(html)) {
+      re.lastIndex = 0;
+      const match = re.exec(html);
+      const id = this.nextUniqueId();
+      const link = ReactDOMServer.renderToStaticMarkup(
+        <a id={id} style={{ cursor: 'pointer' }}>{match[2]}</a>,
+      );
+      // add id and href to link list to have event listener set
+      linkList.push({ id, to: match[1] });
+      // replace html with new link
+      html = html.replace(match[0], link);
     }
-  }
-  // empty text areas sometimes have a stray <br> tag - remove it
-  if (checkEmpty) {
-    html = html.replace(/^(<p>\s?<\/?br\/?>\s?<\/p>)$/gm, '');
+    this.state = { linkList, html };
   }
 
-  if (text) {
+  componentDidMount() {
+    // add listeners to link clicks
+    this.state.linkList.forEach((link) => {
+      const ref = document.getElementById(link.id);
+      ref.addEventListener(
+        'click', () => this.changeBrowserLocation(link.to, ref),
+      );
+    });
+  }
+
+  changeBrowserLocation = (location, ref) => {
+    ref.removeEventListener('click', this.changeBrowserLocation);
+    this.props.history.push(location);
+  }
+
+  render() {
+    const { text, checkEmpty } = this.props;
+    let { html } = this.state;
+
+    // empty text areas sometimes have a stray <br> tag - remove it
+    if (checkEmpty) {
+      html = html.replace(/^(<p>\s?<\/?br\/?>\s?<\/p>)$/gm, '');
+    }
+
+    if (text) {
+      return (
+        <span>{trim(html.replace(/^(<p\n?>)|(<\s*\/p>)$/gm, ''))}</span>
+      );
+    }
+
     return (
-      <span>{trim(html.replace(/^(<p\n?>)|(<\s*\/p>)$/gm, ''))}</span>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: html,
+        }}
+      />
     );
   }
+}
 
-  return (
-    <div
-      dangerouslySetInnerHTML={{
-        __html: html,
-      }}
-    />
-  );
-};
-
-export default DangerousComponent;
+export default withRouter(DangerousComponent);
