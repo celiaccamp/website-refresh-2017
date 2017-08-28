@@ -1,9 +1,8 @@
 import React from 'react';
-import { Header, Divider, Statistic, Loader } from 'semantic-ui-react';
+import { Header, Divider, Statistic } from 'semantic-ui-react';
 import DangerousComponent from './DangerousComponent';
 
 const Calendar = ({ data }) => {
-  if (!data) return <Loader active />;
   const info = data.pages.calendar;
 
   // get the date types

@@ -1,9 +1,8 @@
 import React from 'react';
 import { stateToHTML } from 'draft-js-export-html';
 import { convertFromRaw } from 'draft-js';
-import { Button } from 'semantic-ui-react';
 import { trim } from 'lodash';
-import { Link, Router, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import { enableUniqueIds } from 'react-html-id';
 
 const ReactDOMServer = require('react-dom/server');
@@ -13,7 +12,7 @@ class DangerousComponent extends React.Component {
   constructor(props) {
     super(props);
 
-    // Enable Unique ID support for this class
+    // enable Unique ID support for this class
     enableUniqueIds(this);
 
     let html = stateToHTML(convertFromRaw(JSON.parse(props.value)));

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Header, Table, Loader } from 'semantic-ui-react';
+import { Header, Table } from 'semantic-ui-react';
 import SAMPLE_MENU from '../assets/pdfs/celiac_camp_menu_2017.pdf';
 import DangerousComponent from './DangerousComponent';
 
 const SampleMenu = ({ data }) => {
-  if (!data) return <Loader active />;
   const info = data.pages.sample_menu;
   return (
     <div className="sample-menu">

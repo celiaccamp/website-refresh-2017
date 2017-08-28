@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Card, Button, Icon, Segment, Divider, Form, Dropdown, Loader } from 'semantic-ui-react';
+import { Header, Card, Button, Icon, Segment, Divider, Form, Dropdown } from 'semantic-ui-react';
 import DangerousComponent from './DangerousComponent';
 
 const donationOptions = [
@@ -39,7 +39,6 @@ export default class DonationsAndPayment extends React.PureComponent {
     { key: 'No', text: 'No', value: 'No' },
     ];
 
-    if (!data) return <Loader active />;
     const info = data.pages.donations_and_payment;
 
     return (

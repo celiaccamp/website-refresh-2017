@@ -3,12 +3,10 @@
 */
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
-import { Header, Loader } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 import DangerousComponent from './DangerousComponent';
 
 const Home = ({ data }) => {
-  if (!data) return <Loader active />;
-
   // images for automatic carousel
   const images = [];
   const requireContext = require.context('../assets/images/home-carousel', true, /^\.\/.*\.jpg$/);

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Header, Label, Divider, List, Loader } from 'semantic-ui-react';
+import { Header, Label, Divider, List } from 'semantic-ui-react';
 import Testimonial from './Testimonial';
 import DangerousComponent from './DangerousComponent';
 
 const WhatPeopleSay = ({ data }) => {
-  if (!data) return <Loader active />;
   const info = data.pages.what_people_say;
 
   const links = [];
@@ -20,8 +19,6 @@ const WhatPeopleSay = ({ data }) => {
   });
 
   return (
-
-    // TODO: fix mobile appearance
     <div className="what-people-say">
       <Header as="h2">{info.title.value}</Header>
       <Header as="h3">The Media</Header>
@@ -87,6 +84,6 @@ const WhatPeopleSay = ({ data }) => {
         </List.Item>
       </List>
     </div>
-);
+  );
 };
 export default WhatPeopleSay;

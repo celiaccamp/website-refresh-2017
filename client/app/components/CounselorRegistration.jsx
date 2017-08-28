@@ -1,9 +1,8 @@
 import React from 'react';
-import { Header, Message, Step, Loader } from 'semantic-ui-react';
+import { Header, Message, Step } from 'semantic-ui-react';
 import DangerousComponent from './DangerousComponent';
 
 const CounselorRegistration = ({ data }) => {
-  if (!data) return <Loader active />;
   const info = data.pages.counselor_registration;
   return (
     <div className="registration">

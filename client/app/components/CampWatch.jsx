@@ -1,12 +1,11 @@
 import React from 'react';
-import { Header, Divider, Button, Loader } from 'semantic-ui-react';
+import { Header, Divider, Button } from 'semantic-ui-react';
 import PACKING_LIST from '../assets/pdfs/packing_list.pdf';
 import CAMP_MAP from '../assets/pdfs/camp_arroyo_map.pdf';
 import DIRECTIONS from '../assets/pdfs/camp_arroyo_directions.pdf';
 import DangerousComponent from './DangerousComponent';
 
 const CampWatch = ({ data }) => {
-  if (!data) return <Loader active />;
   const info = data.pages.camp_watch;
   return (
     <div className="camp-watch">

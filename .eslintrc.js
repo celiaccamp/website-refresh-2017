@@ -7,6 +7,7 @@ module.exports = {
     "react/no-array-index-key": 0,
     "jsx-a11y/label-has-for": 0,
     "jsx-a11y/href-no-hash": 0,
+    "no-nested-ternary": 0,
   },
   "globals": {
       "window": true,

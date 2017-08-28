@@ -1,9 +1,8 @@
 import React from 'react';
-import { Header, Accordion, Loader } from 'semantic-ui-react';
+import { Header, Accordion } from 'semantic-ui-react';
 import DangerousComponent from './DangerousComponent';
 
 const FrequentlyAskedQuestions = ({ data }) => {
-  if (!data) return <Loader active />;
   const info = data.pages.faq;
 
   // set up panels

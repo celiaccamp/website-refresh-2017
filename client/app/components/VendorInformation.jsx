@@ -1,9 +1,8 @@
 import React from 'react';
-import { Header, Loader } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 import DangerousComponent from './DangerousComponent';
 
 const VendorInformation = ({ data }) => {
-  if (!data) return <Loader active />;
   const info = data.pages.vendor_information;
   return (
     <div>
