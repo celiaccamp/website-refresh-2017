@@ -7,6 +7,8 @@ const FrequentlyAskedQuestions = ({ data }) => {
 
   // set up panels
   const panels = [];
+
+  // get info
   const keys = Object.keys(info).sort((a, b) => {
     const aValue = info[a].order;
     const bValue = info[b].order;
@@ -19,12 +21,12 @@ const FrequentlyAskedQuestions = ({ data }) => {
     return 0;
   });
 
-  keys.forEach((key) => {
+  keys.forEach(key => {
     const item = info[key];
     if (item.type === 'inputandtextarea') {
       panels.push({
         title: item.header_value,
-        content: <DangerousComponent value={item.value} />,
+        content: <DangerousComponent value={item.value} key={`content-${key}`} />,
       });
     }
   });
@@ -32,7 +34,7 @@ const FrequentlyAskedQuestions = ({ data }) => {
   return (
     <div className="faq">
       <Header as="h2">{info.title.value}</Header>
-      <Accordion styled exclusive={false} panels={panels} />
+      <Accordion styled panels={panels} />
     </div>
   );
 };

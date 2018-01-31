@@ -45,6 +45,7 @@
     "unique-id-mixin": "^1.0.0",
     "url-loader": "^0.5.9",
     "webpack": "^3.5.5",
+    "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
@@ -57,12 +58,7 @@
     "lodash": "^4.17.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-draft-wysiwyg": "^1.10.8",
-    "react-html-id": "^0.1.1",
-    "react-image-gallery": "^0.8.3",
-    "react-keydown": "^1.9.4",
-    "react-paypal-express-checkout": "^1.0.1",
     "react-router-dom": "^4.1.2",
-    "semantic-ui-react": "^0.71.5"
+    "semantic-ui-react": "^0.77.0"
   }
 }

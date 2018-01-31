@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Message, Step } from 'semantic-ui-react';
+import { Header, Message, Step, Button, Icon } from 'semantic-ui-react';
 import DangerousComponent from './DangerousComponent';
 
 const CounselorRegistration = ({ data }) => {
@@ -8,18 +8,20 @@ const CounselorRegistration = ({ data }) => {
     <div className="registration">
       <Header as="h2">{info.title.value}</Header>
       <DangerousComponent value={info.text_section_1.value} />
-      <Message
-        icon="info circle"
-        header={info.background_check_message.header_value}
-        warning
-        content={
-          <DangerousComponent value={info.background_check_message.value} />
-        }
-      />
-      <DangerousComponent value={info.text_section_2.value} />
       <br />
       <div className="center-wrapper">
-        <Step.Group vertical>
+        <Button
+          disabled
+          animated="vertical"
+          as="a"
+          href="http://www.areff.com/celiac/login/login.php"
+        >
+          <Button.Content visible>Camp Celiac Registration Website</Button.Content>
+          <Button.Content hidden>
+            <Icon name="address card outline" />
+          </Button.Content>
+        </Button>
+        {/* <Step.Group vertical>
           <Step
             link
             size="tiny"
@@ -53,8 +55,16 @@ const CounselorRegistration = ({ data }) => {
             rel="noopener noreferrer"
             target="_blank"
           />
-        </Step.Group>
+        </Step.Group> */}
       </div>
+      {/* <DangerousComponent value={info.text_section_2.value} /> */}
+      <Message
+        icon="info circle"
+        header={info.background_check_message.header_value}
+        warning
+        content={<DangerousComponent value={info.background_check_message.value} />}
+      />
+      <DangerousComponent value={info.text_section_3.value} />
     </div>
   );
 };

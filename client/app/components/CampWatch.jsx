@@ -9,17 +9,21 @@ const CampWatch = ({ data }) => {
   const info = data.pages.camp_watch;
   return (
     <div className="camp-watch">
-      <Header as="h2">
-        {info.title.value}
-      </Header>
+      <Header as="h2">{info.title.value}</Header>
       <DangerousComponent value={info.content.value} />
       <br />
       <Divider />
-      <Button fluid as="a" href={PACKING_LIST} target="_blank" rel="noopener noreferrer">Packing List</Button>
+      <Button fluid as="a" href={PACKING_LIST} target="_blank" rel="noopener noreferrer">
+        Packing List
+      </Button>
       <Divider hidden />
-      <Button fluid as="a" href={CAMP_MAP} target="_blank" rel="noopener noreferrer">Camp Map</Button>
+      <Button fluid as="a" href={CAMP_MAP} target="_blank" rel="noopener noreferrer">
+        Camp Map
+      </Button>
       <Divider hidden />
-      <Button fluid as="a" href={DIRECTIONS} target="_blank" rel="noopener noreferrer">Directions</Button>
+      <Button fluid as="a" href={DIRECTIONS} target="_blank" rel="noopener noreferrer">
+        Directions
+      </Button>
     </div>
   );
 };

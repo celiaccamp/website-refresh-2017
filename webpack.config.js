@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const webpack = require('webpack');
 
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './client/app/index.html',
@@ -65,6 +66,27 @@ const config = {
   plugins: [
     HtmlWebpackPluginConfig,
     new ExtractTextPlugin('style.css'),
+    // minify remove some of the dead code
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false,
+        screw_ie8: true,
+        conditionals: true,
+        unused: true,
+        comparisons: true,
+        sequences: true,
+        dead_code: true,
+        evaluate: true,
+        if_return: true,
+        join_vars: true,
+      },
+      mangle: {
+        screw_ie8: true,
+      },
+      output: {
+        comments: false,
+      },
+    }),
   ],
   resolve: {
     extensions: ['.js', '.jsx'],
