@@ -26,12 +26,7 @@ const CamperRegistration = ({ data }) => {
       <DangerousComponent value={info.text_section_3.value} />
       <br />
       <div className="center-wrapper">
-        <Button
-          disabled
-          animated="vertical"
-          as="a"
-          href="http://www.areff.com/celiac/login/login.php"
-        >
+        <Button animated="vertical" as="a" href="https://www.areff.com/celiac/login/login.php">
           <Button.Content visible>Camp Celiac Registration Website</Button.Content>
           <Button.Content hidden>
             <Icon name="address card outline" />
@@ -71,7 +66,7 @@ const CamperRegistration = ({ data }) => {
             rel="noopener noreferrer"
             target="_blank"
           />
-          <Link to="/donationsandpayment">
+          <Link to="/donations">
             <Step
               link
               size="tiny"

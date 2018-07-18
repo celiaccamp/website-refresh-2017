@@ -1,0 +1,805 @@
+{
+  "links" : {
+    "camper_and_jc_liability_waiver" : {
+      "group" : 3,
+      "label" : "Camper and Junior Counselor Liability Waiver Link",
+      "order" : 2,
+      "type" : "input",
+      "value" : "https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=60f8aa92-aa34-43b3-9556-78f59b787cee"
+    },
+    "camper_registration_form" : {
+      "group" : 1,
+      "label" : "Camper Registration Form Link",
+      "order" : 2,
+      "type" : "input",
+      "value" : "https://fs7.formsite.com/campceliac/form35/index.html"
+    },
+    "counselor_liability_waiver" : {
+      "group" : 3,
+      "label" : "Counselor Liability Waiver Link",
+      "order" : 3,
+      "type" : "input",
+      "value" : "https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=b41d633a-43ef-41bb-8601-72d4b2e28ea6"
+    },
+    "counselor_registration_form" : {
+      "group" : 1,
+      "label" : "Counselor Registration Form Link",
+      "order" : 4,
+      "type" : "input",
+      "value" : "https://fs7.formsite.com/campceliac/form36/index.html"
+    },
+    "facebook_link" : {
+      "group" : 4,
+      "label" : "Facebook Link",
+      "order" : 2,
+      "type" : "input",
+      "value" : "https://www.facebook.com/CeliacCampTTFF/"
+    },
+    "health_history_divider" : {
+      "deletable" : "true",
+      "group" : 2,
+      "label" : "Health History",
+      "order" : -1,
+      "type" : "divider"
+    },
+    "health_history_link" : {
+      "group" : 2,
+      "label" : "Health History Link",
+      "order" : 2,
+      "type" : "input",
+      "value" : "https://fs7.formsite.com/campceliac/form39/index.html"
+    },
+    "instagram_link" : {
+      "group" : 4,
+      "label" : "Instagram Link",
+      "order" : 3,
+      "type" : "input",
+      "value" : "https://www.instagram.com/celiaccamp/"
+    },
+    "junior_counselor_registration_form" : {
+      "group" : 1,
+      "label" : "Junior Counselor Registration Form Link",
+      "order" : 3,
+      "type" : "input",
+      "value" : "https://fs7.formsite.com/campceliac/form37/index.html"
+    },
+    "liability_waiver_divider" : {
+      "deletable" : "true",
+      "group" : 3,
+      "label" : "Liability Waiver",
+      "order" : -1,
+      "type" : "divider"
+    },
+    "registration_form_divider" : {
+      "deletable" : "true",
+      "group" : 1,
+      "label" : "Registration Forms",
+      "order" : -1,
+      "type" : "divider"
+    },
+    "social_divider" : {
+      "deletable" : "true",
+      "group" : 4,
+      "label" : "Social",
+      "order" : -1,
+      "type" : "divider"
+    }
+  },
+  "pages" : {
+    "calendar" : {
+      "-Kzt3hxYi_kWKWQxDIMn" : {
+        "content" : "Second Session Ends (Check-out 10 a.m. to 10:30 a.m.)",
+        "deletable" : true,
+        "group" : 1,
+        "header_value" : "Jul 28",
+        "label" : "First Session Start Date",
+        "order" : 4,
+        "type" : "twoinputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"9jglo\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-Kzt3vMVGZD8oO7IBwZU" : {
+        "content" : "Second Session Begins (Check-in 2:30 to 3:00 p.m.)",
+        "deletable" : true,
+        "group" : 1,
+        "header_value" : "Jul 25 ",
+        "label" : "First Session End Date",
+        "order" : 5,
+        "type" : "twoinputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"5k6ia\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-Kzt406nNK-Kz5FV5nxq" : {
+        "content" : "First Session Ends (Check-out 10:00 a.m. to 10:30 a.m.)",
+        "deletable" : true,
+        "group" : 1,
+        "header_value" : "Jul 25 ",
+        "label" : "Second Session Start Date",
+        "order" : 6,
+        "type" : "twoinputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"bjukl\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-Kzt49_wMBkCU4USSnUJ" : {
+        "content" : "First Session Begins (Check-in 2:30 pm. to 3:00 p.m.)",
+        "deletable" : true,
+        "group" : 1,
+        "header_value" : "Jul 22 ",
+        "label" : "Second Session End Date",
+        "order" : 7,
+        "type" : "twoinputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"e76b3\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "add_date" : {
+        "group" : 1,
+        "label" : "Add a Date and Description",
+        "order" : 9007199254740991,
+        "type" : "addtwoinputandtextarea"
+      },
+      "date_1" : {
+        "content" : "",
+        "deletable" : true,
+        "group" : 1,
+        "header_value" : "",
+        "label" : "First Date and Descriptions",
+        "order" : 2,
+        "type" : "twoinputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"l6cp\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_1" : {
+        "group" : 2,
+        "label" : "Footer Text Section",
+        "order" : 3,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"l6cp\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Calendar"
+      }
+    },
+    "camp_watch" : {
+      "content" : {
+        "label" : "Main Content",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"l6cp\",\"text\":\"CAMP IS FULL--WAIT LIST IS CLOSED\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":33,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"6i3i8\",\"text\":\"Session 1: July 22, 2018, check-in 2:30 p.m. to 3:00 p.m.  to July 25, 2018 check-out 10:00 to 10:30 a.m.,\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":10,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"ce5ef\",\"text\":\"Session 2: July 25, 2018, check-in 2:30 p.m. to 3:00 p.m. to July 28, 2018  check-out 10:00 a.m. to 10:30 a.m.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"2un5j\",\"text\":\".\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Camp Celiac 2018 Dates"
+      }
+    },
+    "camper_registration" : {
+      "register_status_message" : {
+        "label" : "Registration Status Report Message",
+        "order" : 6,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"impp\",\"text\":\"If your camper is from Northern California and you register by FEBRUARY 14th, we will advise you of your camper's registration status by MARCH 5th.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":63,\"length\":13,\"style\":\"BOLD\"},{\"offset\":137,\"length\":9,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "registration_priority_message" : {
+        "header_value" : "Registration Priority",
+        "label" : "Registration Priority Message",
+        "order" : 3,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"url\":\"http://celiaccamp.com/client/app/assets/pdfs/northerncaliforniacounties.pdf\",\"target\":\"_blank\"}}},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"The by-laws of The Taylor Family Foundation require that we give priority to campers from Northern California .\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":90,\"length\":19,\"key\":0}],\"data\":{}}]}"
+      },
+      "text_section_1" : {
+        "label" : "First Text Section",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"8i14m\",\"text\":\"Camp Celiac is for children ages 9-17 years. Campers ages 16 entering 10th grade or lower may choose to register as a junior counselor or camper. Campers age 16-17 who are entering 11th grade or higher must register as a junior counselor.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":33,\"length\":4,\"style\":\"BOLD\"},{\"offset\":58,\"length\":2,\"style\":\"BOLD\"},{\"offset\":70,\"length\":4,\"style\":\"BOLD\"},{\"offset\":158,\"length\":5,\"style\":\"BOLD\"},{\"offset\":181,\"length\":5,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_2" : {
+        "label" : "Second Text Section",
+        "order" : 4,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"27km6\",\"text\":\"Campers from Northern California\",\"type\":\"header-three\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":32,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"2ha54\",\"text\":\"All campers from Northern California who register between February 1st and February 14th will be given equal priority if all four registration steps (see below) are completed by February 14 (and received if paying by mail); i.e. there is no advantage to registering on February 1st rather than February 14th. After February 14th, available space will be allocated on a first-come, first-serve basis after all four registration steps are completed (and received if paying by mail). At all times, space availability will depend, in part, on the camper's age and gender since cabins are segregated by sex and age. Please see Camp Watch for status regarding available space vs. wait list.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"729tn\",\"text\":\"Campers from Outside Northern California\",\"type\":\"header-three\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":40,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"7uqpa\",\"text\":\"Please complete the registration instructions below. Priority will be based upon date of completed registration and sex/age availability. No spaces will be offered to campers from outside Northern California until the end of March, and then only if space is available.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_3" : {
+        "label" : "Third Text Section",
+        "order" : 5,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"fne3d\",\"text\":\"Campers can indicate which  one of two sessions they prefer to attend. To ensure maximum availability for new campers, campers may sign up for ONE session only.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":143,\"length\":3,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"16ol6\",\"text\":\"Registration \",\"type\":\"header-three\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":13,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"6042k\",\"text\":\"New this year: each family will be asked to create a log-in (user name and password) which can be used to register multiple family members as well as to update or complete the registration process. Please click below to be directed to our new registration site.  (Site active beginning February 1).\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_4" : {
+        "label" : "Fourth Text Section",
+        "order" : 7,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"url\":\"http://celiaccamp.com/donationsandpayment\",\"target\":\"_blank\"}},\"1\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"url\":\"http://www.celiaccamp.com/donationsandpayment\",\"target\":\"_blank\"}}},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"The registration charge is a non-refundable $25 for both enrolled and wait list spots. While we charge only $25 for Celiac Camp, we rely on donations  to pay for much of our camp programming including archery, arts and crafts, medical supplies, insurance, a dance with a DJ and photo booth, sports equipment, board games, etc.  Please consider making a tax-deductible donation  to support Camp Celiac at Camp Arroyo.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":140,\"length\":9,\"key\":0},{\"offset\":368,\"length\":9,\"key\":1}],\"data\":{}},{\"key\":\"a0n2q\",\"text\":\"If paying registration fee by check, please make check payable and mail to:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Camper Registration"
+      }
+    },
+    "contact_information" : {
+      "content" : {
+        "label" : "Main Content",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"url\":\"http://www.celiaccamp.com/faq\",\"target\":\"_self\"}}},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"Camp Celiac is an all volunteer organization; please allow some time for responses to inquiries. If you still have questions after having read through the Frequently Asked Questions page, please contact us at campceliac@gmail.com.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":155,\"length\":27,\"key\":0}],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Contact Information"
+      }
+    },
+    "counselor_registration" : {
+      "background_check_message" : {
+        "header_value" : "Live Scan Background Check",
+        "label" : "Background Check Message",
+        "order" : 3,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"href\":\"https://oag.ca.gov/fingerprints/locations\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"url\":\"https://oag.ca.gov/fingerprints/locations\"}}},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\" In addition, if not previously completed for Camp Celiac, volunteers need to complete a live scan background check. Once you register and are offered a staff position, we will email you forms for the fingerprinting and background check. You can also visit here to find the closest center.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":256,\"length\":6,\"key\":0}],\"data\":{}}]}"
+      },
+      "text_section_1" : {
+        "label" : "First Text Section",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"8i14m\",\"text\":\"Camp Celiac could not be possible without our wonderful adult volunteer counselors (ages 18 or older by the date of Camp). If you (or someone you know) would like to make camp a reality for our kids and enjoy a week of delicious gluten-free cooking in the beautiful Livermore, California wine country, please consider volunteering. As we are limited in the number of kids we can serve based on the number of volunteers we recruit, please register as soon as possible. In particular, we are often in need of male counselors for the boys' groups.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"f4h9l\",\"text\":\"There is only ONE session for Counselors: July 22 through July 28.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":14,\"length\":3,\"style\":\"BOLD\"},{\"offset\":42,\"length\":8,\"style\":\"BOLD\"},{\"offset\":58,\"length\":7,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"c4j37\",\"text\":\"Counselors must arrive at Camp Celiac at noon of July 22  for orientation/training along with the junior counselors.  Camp will end around 11:00 a.m. on July 28.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":49,\"length\":8,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"5kmtl\",\"text\":\"Registration Steps\",\"type\":\"header-three\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":18,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"allll\",\"text\":\"New this year: each volunteer will be asked to create a log-in (user name and password) which can be used to register multiple family members as well as to update or complete the registration process.  Please click the link below to be directed to our new registration site.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":274,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_2" : {
+        "label" : "Second Text Section",
+        "order" : 4,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"27km6\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_3" : {
+        "label" : "Third Text Section",
+        "order" : 5,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"fne3d\",\"text\":\"The goal of Camp Celiac is to help campers develop confidence and independence. As a result, we give priority to counselors who are not parents/guardians of campers.  At times we have had need/space for male volunteers, even relatives, but we have not had availability for female parent/guardian volunteers in nearly 10 years.  Volunteers help supervise the cabins, meal times, arts/crafts, and other activities.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Counselor Registration"
+      }
+    },
+    "donations_and_payment" : {
+      "text_section_1" : {
+        "label" : "First Text Section",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"url\":\"http://www.areff.com/celiac/login/login.php\",\"target\":\"_self\"}},\"1\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"href\":\"http://www.ttff.org/\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"url\":\"http://www.ttff.org/\"}},\"2\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"href\":\"http://www.celiaccommunity.org/\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"url\":\"http://www.celiaccommunity.org/\"}}},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"The only required cost for Camp Celiac is a nonrefundable $25 registration fee per camper. This registration fee is now paid through the Celiac Camp registration site (here).  We rely on donations to pay our camp director fee, insurance, programming such as archery, arts and crafts, a dance the last night of camp with a professional d.j., supplies for the med shed, among other items.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":91,\"length\":85,\"style\":\"BOLD\"}],\"entityRanges\":[{\"offset\":168,\"length\":4,\"key\":0}],\"data\":{}},{\"key\":\"b3tdt\",\"text\":\"Costs for the camp facility, food, and camp support staff are covered by the incredibly generous support of the Taylor Family Foundation, the East Bay Regional Parks District, and the YMCA. Additional financial and administrative support are also generously provided by the Celiac Community Foundation of Northern California.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":112,\"length\":24,\"key\":1},{\"offset\":274,\"length\":50,\"key\":2}],\"data\":{}}]}"
+      },
+      "text_section_2" : {
+        "label" : "Second Text Section",
+        "order" : 3,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"If you would prefer to make a payment or donation by check, please make checks out to the Celiac Community Foundation of Northern California and mail to:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Donate"
+      }
+    },
+    "faq" : {
+      "-KsVxpt7ek145-bbS4Pn" : {
+        "deletable" : true,
+        "header_value" : "",
+        "label" : "ggg",
+        "order" : 16,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"48v9r\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_1" : {
+        "deletable" : true,
+        "header_value" : "Who can attend Camp Celiac?",
+        "label" : "First Question",
+        "order" : 2,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"Camp Celiac is for kids ages 9 to 17 years old who have been diagnosed with celiac disease, a condition that requires life-long adherence to a gluten-free diet. Given limited space, we can only accomodate those who have been diagnosed by a physician with Celiac Disease or Gluten Intolerance. Campers ages 16-17 who will be entering 11th grade and up can only attend as junior counselors. 16 year olds entering 10th grade or lower may choose to attend as a camper or a junior counselor. Junior counselors assist the adult volunteers.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_10" : {
+        "deletable" : true,
+        "header_value" : "Who runs Camp Celiac?",
+        "label" : "Tenth Question",
+        "order" : 11,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"Camp Arroyo is jointly staffed by the YMCA of the East Bay, employees and volunteers of the Taylor Family Foundation, the East Bay Regional Parks District, and the adult volunteer counselors recruited by Camp Celiac. In addition, there will be a medical staff member (i.e. a doctor or nurse volunteer) for emergencies.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"2rbhh\",\"text\":\"Camp Celiac is the volunteer organization that puts together much of the camp's organization including the registration, recruitment, camp director, counselors, medical staff, website, and much of the camp's activity program. Camp Celiac works with Camp Arroyo, the Taylor Family Foundation, the Celiac Community Foundation of Northern California, and our other sponsors to put the Camp together. If you are interested in helping to continue making camp a reality, please contact us at campceliac@gmail.com.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_11" : {
+        "deletable" : true,
+        "header_value" : "Why a celiac camp?",
+        "label" : "Eleventh Question",
+        "order" : 12,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"The goal is to provide children medically restricted to a life-long gluten-free diet with a \\\"safe\\\" opportunity to relax and have fun with kids their age, without having to worry about social acceptance or what foods they can eat. At Camp Celiac, kids find themselves in the company of other kids on a gluten-free diet, counselors with celiac disease, and a staff familiar with food sensitivities. Celiac Camp has been a memorable and life-changing event in kids' lives (see the \\\"What People Say\\\" section under \\\"Information / About Camp\\\").\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_12" : {
+        "deletable" : true,
+        "header_value" : "Will my child be able to call or write to me from the camp?",
+        "label" : "Twelfth Question",
+        "order" : 13,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"One reason we offer the camp idea is to provide a safe and self-reliant environment for kids, where they can relate to other kids with celiac, have a camp experience without the worry of food choices, and have fun! To enhance the development of independent decision-making, we generally discourage visits or calls from parents during the camp session and we request that campers not bring cell phones or other electronic devices to camp.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_13" : {
+        "deletable" : true,
+        "header_value" : "What if my child needs medical care while at camp?",
+        "label" : "Thirteenth Question",
+        "order" : 14,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"There is a medical infirmary on site, and there is a physician or another trained medical person at the camp for medical emergencies. The counselors will also provide emotional and social support at all times.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"bv3fi\",\"text\":\"Adults and campers will need to bring all essential medicines with them to check-in. To minimize disruption to the camp schedule, we request that non-essential substances (e.g. vitamins and herbal supplements) be kept at home. We require that all essential medications be pre-sorted into a seven-day pill sorter in advance, along with a printed schedule of when the medications should be taken. All essential medications (including over-the-counter medications) will be handed to the medical staff at check-in, stored in the infirmary and given to the kids at the required schedule. Our medical facility is also stocked with over the counter medicines that may be needed for minor colds and aches.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_14" : {
+        "deletable" : true,
+        "header_value" : "Are all of the foods really gluten-free?",
+        "label" : "Fourteenth Question",
+        "order" : 15,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"The pre-packaged foods are all selected from well-established providers of gluten-free foods, many of whom generously donate their products. Foods prepared on site are made from gluten-free mixes, use gluten-free ingredients, and are not prepared alongside any gluten-containing products. The kitchen is cleaned thoroughly prior to the start of the camp to minimize the possibility of cross-contamination.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_2" : {
+        "deletable" : true,
+        "header_value" : "When do we check in and out?",
+        "label" : "Second Question",
+        "order" : 3,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"Check-in: Please see the Calendar on the right hand side of the website for details about each camp. Please do not arrive early.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"2k2bi\",\"text\":\"Check-out: All campers must be checked out by the stated time so camp can be prepared for the next group, see the Calendar for date information.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_3" : {
+        "deletable" : true,
+        "header_value" : "How much does Camp Celiac cost?",
+        "label" : "Third Question",
+        "order" : 4,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"href\":\"http://celiaccommunity.org/\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"url\":\"http://celiaccommunity.org/\"}}},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"The only required cost is a $25 non-refundable registration fee. The physical costs of the camp facility, food, and camp support staff (kitchen and maintenance staff, lifeguards, trainers for the ropes course/zip line, bus transportation to the lake, etc.) are covered by the incredibly generous support of the Taylor Family Foundation, the East Bay Regional Parks District, and the YMCA. Additional financial and administrative support are also very generously provided by the Celiac Community Foundation of Northern California. Separate donations, if you are able, are needed to cover the additional costs of Camp Celiac (art supplies, medical supplies, camp director, registration, some activities, general and medical insurance, etc.).\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":478,\"length\":50,\"key\":0}],\"data\":{}}]}"
+      },
+      "question_4" : {
+        "deletable" : true,
+        "header_value" : "Where is the camp located and what is Camp Arroyo?",
+        "label" : "Fourth Question",
+        "order" : 5,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"Camp Celiac is at Camp Arroyo in Livermore, California. Set amidst the rolling hills of the San Francisco Bay Area, Camp Arroyo is a spectacular facility managed by a joint public and private effort between the East Bay Regional Park District, The Taylor Family Foundation, and the YMCA. Together, they created a Summer Youth Camp and Environmental Education Center on a 138-acre parkland near Livermore, California. Camp Arroyo, built and operated on the principles of an ecologically sustainable community, provides a safe haven for children with illnesses or disabilities that make it difficult for them to attend most camps.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_5" : {
+        "deletable" : true,
+        "header_value" : "How do I get to Camp Celiac?",
+        "label" : "Fifth Question",
+        "order" : 6,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"Families must arrange their camper's transportation to and from the camp. If requested, we will try to provide information to connect families traveling from the same areas so that they can arrange carpools. For directions to Camp Arroyo, please look at the \\\"Camp Watch.\\\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_6" : {
+        "deletable" : true,
+        "header_value" : "How about other food allergies/sensitivities?",
+        "label" : "Sixth Question",
+        "order" : 7,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"Camp Celiac is dedicated to providing children who have medical doctor diagnosed celiac disease or gluten intolerance with a worry-free summer camp experience. We recognize, however, that some campers with celiac or gluten intolerance may suffer from food allergies. We can accommodate campers with dairy, soy (other than soy lecithin) and nut allergies. If your camper has food allergies other than dairy, nuts or soy please contact campceliac@gmail.com at the time of Camp registration to discuss whether Camp can address the camper's needs. Unfortunately we cannot serve campers with allergies to corn or soy lecithin as these ingredients are ubiquitous in gluten free foods.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_7" : {
+        "deletable" : true,
+        "header_value" : "Where do campers sleep?",
+        "label" : "Seventh Question",
+        "order" : 8,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"Campers will sleep in gender-specific cabins; each cabin sleeps 12 persons on beds with mattresses. Campers need to bring their own sleeping bags and pillows.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_8" : {
+        "deletable" : true,
+        "header_value" : "What do campers eat?",
+        "label" : "Eighth Question",
+        "order" : 9,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"Meals are served family style in the spacious dining hall. All meals and snacks will be gluten free (no need for your camper to ask, \\\"is this gluten free?\\\"). The kitchen will be cleaned twice before our kids arrive.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_9" : {
+        "deletable" : true,
+        "header_value" : "What are the camp activities?",
+        "label" : "Ninth Question",
+        "order" : 10,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"The 3500 square foot pool is the heart of summer camp activities and is large enough for wading, games, and team sports. The pool was designed to allow campers in the shallow area as well as in the sports area. All campers will be required to take a swim test before being allowed in the pool. No campers will be allowed in the pool area without a YMCA Camp Arroyo approved lifeguard on duty.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"dq1sj\",\"text\":\"The Challenge Course consists of multiple challenge elements facilitated by the Fort Miley Adventure Challenge Course staff. There is a 36' X 36' rock wall, a 210' zip line, as well as other high and low climbing elements.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"edu31\",\"text\":\"Additional camp activities change on a year-by-year basis. In the past, Camp has included a day-long \\\"Olympics\\\" with different activities; an arts and crafts center; bocce ball; basketball; archery; soccer and other field sports; a talent share; cabin skit night; and a campfire amphitheater (with gluten-free s'mores!).\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "question_adder" : {
+        "label" : "Add a Question",
+        "order" : 9007199254740991,
+        "type" : "addinputandtextarea"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Frequently Asked Questions"
+      }
+    },
+    "gallery" : {
+      "-KsWw5LHvFW6IvxTjRnZ" : {
+        "deletable" : true,
+        "group" : 2,
+        "header_value" : "https://sayyaphotobooth.smugmug.com/Photobooth-2016/20160713-Camp-Celiac/n-bZzPQq/  {{session: 1}}",
+        "label" : "Session 1 Photobooth Pictures",
+        "order" : 10,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1qb4b\",\"text\":\"Session 1 Photobooth Pictures\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsWxt0AL8gVCRMDWSWL" : {
+        "deletable" : true,
+        "group" : 2,
+        "header_value" : "https://sayyaphotobooth.smugmug.com/Photobooth-2016/20160716-Camp-Celiac/n-tmHH3F/  {{session: 2}}",
+        "label" : "Session 2 Photobooth Pictures",
+        "order" : 11,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"27doq\",\"text\":\"Session 2 Photobooth Pictures\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsXAlFEvbPBQ1p_TKNb" : {
+        "deletable" : "true",
+        "group" : 3,
+        "label" : "Camp Celiac 2016 Links",
+        "order" : -1,
+        "type" : "divider"
+      },
+      "-KsXAlG7vfbIxFBDsj2v" : {
+        "deletable" : "true",
+        "group" : 3,
+        "label" : "Add to 2016 Link Group Container",
+        "order" : 9007199254740991,
+        "type" : "addinputandtextarea"
+      },
+      "-KsXAlGl3aStILd6xfLH" : {
+        "deletable" : true,
+        "group" : 3,
+        "header_value" : "Camp Celiac 2016 Links",
+        "label" : "2016 Link Group Container Header & Footer",
+        "order" : 15,
+        "purpose" : "container",
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"8eqq5\",\"text\":\"The password for the photobooth pictures is Arroyo\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsXBMPXy385g3OQ8_7_" : {
+        "deletable" : true,
+        "group" : 3,
+        "header_value" : "https://celiaccamp2016.shutterfly.com/  {{count: 5909}}",
+        "label" : "2016 Session Pictures",
+        "order" : 16,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"c006m\",\"text\":\"Session Pictures\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsXBo9P8p6HaBsBORDr" : {
+        "deletable" : true,
+        "group" : 3,
+        "header_value" : "https://sayyaphotobooth.smugmug.com/Photobooth-2016/20160713-Camp-Celiac/n-bZzPQq/ {{session: 1}}",
+        "label" : "2016 Session 1 Photobooth Pictures",
+        "order" : 17,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"b3qrg\",\"text\":\"Session 1 Photobooth Pictures\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsXC0pBGfk5nbHWQNw0" : {
+        "deletable" : true,
+        "group" : 3,
+        "header_value" : "https://sayyaphotobooth.smugmug.com/Photobooth-2016/20160716-Camp-Celiac/n-tmHH3F/ {{session: 2}}",
+        "label" : "2016 Session 2 Photobooth Pictures",
+        "order" : 18,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"9bjcu\",\"text\":\"Session 2 Photobooth Pictures\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsXCH4XubY3hcRdomSN" : {
+        "deletable" : "true",
+        "group" : 4,
+        "label" : "Camp Celiac 2015 Links",
+        "order" : -1,
+        "type" : "divider"
+      },
+      "-KsXCH5UZ_rU0IsT3BZ9" : {
+        "deletable" : "true",
+        "group" : 4,
+        "label" : "Add to 2015 Link Group Container Header & Footer",
+        "order" : 9007199254740991,
+        "type" : "addinputandtextarea"
+      },
+      "-KsXCH64JbUM61is0m_6" : {
+        "deletable" : true,
+        "group" : 4,
+        "header_value" : "Camp Celiac 2015 Links",
+        "label" : "2015 Link Group Container Header & Footer",
+        "order" : 19,
+        "purpose" : "container",
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"bi6pm\",\"text\":\"The password for the photobooth pictures is Arroyo\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsXCf8KquN4ZaJHj2xl" : {
+        "deletable" : true,
+        "group" : 4,
+        "header_value" : "https://celiaccamp2016.shutterfly.com/  {{count: 4315}}",
+        "label" : "2015 Session Pictures",
+        "order" : 20,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"8cjth\",\"text\":\"Session Pictures\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsXCuqphb2WVzcb3dX6" : {
+        "deletable" : true,
+        "group" : 4,
+        "header_value" : "https://sayyaphotobooth.smugmug.com/Photobooth-2016/20160713-Camp-Celiac/n-bZzPQq/ {{session: 1}}",
+        "label" : "2015 Session 1 Photobooth Pictures",
+        "order" : 21,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"2r2v\",\"text\":\"Session 1 Photobooth Pictures\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsXD3vxw4k4rhc6todn" : {
+        "deletable" : true,
+        "group" : 4,
+        "header_value" : "https://sayyaphotobooth.smugmug.com/Photobooth/Camp-Celiac-Day-2/n-P7hDtx/  {{session: 2}}",
+        "label" : "2015 Session 2 Photobooth Pictures",
+        "order" : 22,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"2pckk\",\"text\":\"Session 1 Photobooth Pictures\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "divider" : {
+        "deletable" : "true",
+        "group" : 2,
+        "label" : "Camp Celiac 2017 Links",
+        "order" : -1,
+        "type" : "divider"
+      },
+      "group_1_link_1" : {
+        "deletable" : true,
+        "group" : 2,
+        "header_value" : "https://celiaccamp2016.shutterfly.com/ {{count: 5361}}",
+        "label" : "2017 Session Pictures",
+        "order" : 1,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"fbp4b\",\"text\":\"Session Pictures\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "group_1_link_adder" : {
+        "deletable" : "true",
+        "group" : 2,
+        "label" : "Add to Camp Celiac 2017 Links",
+        "order" : 9007199254740991,
+        "type" : "addinputandtextarea"
+      },
+      "group_container_adder" : {
+        "group" : 9007199254740991,
+        "label" : "Add Another Link Group Container",
+        "order" : 2,
+        "type" : "addgroupcontainer"
+      },
+      "link_group_1_container" : {
+        "deletable" : true,
+        "group" : 2,
+        "header_value" : "Camp Celiac 2017 Links",
+        "identifier" : "groupheader",
+        "label" : "2017 Link Group Container (Header & Footer)",
+        "order" : 7,
+        "purpose" : "container",
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"fbp4b\",\"text\":\"The password for the photobooth pictures is Celiac2017\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_1" : {
+        "group" : 1,
+        "label" : "First Text Section",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"A huge thank you goes out to Molly Stone, Braden Lynch, and many others who helped to take and post these pictures! We appreciate all of the time and effort you put in.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_2" : {
+        "group" : 1,
+        "label" : "Second Text Section",
+        "order" : 3,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"Camp Celiac 2017 Highlights\",\"type\":\"header-three\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":27,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"dihi1\",\"text\":\"See links at bottom of page for full albums.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_3" : {
+        "group" : 1,
+        "label" : "Third Text Section",
+        "order" : 4,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"Camp Celiac is famous for its impromptu, all-camp sing-alongs (last year, How Far I'll Go) was the song of choice.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_4" : {
+        "group" : 1,
+        "label" : "Fourth Text Section",
+        "order" : 5,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"Check out the Camp Celiac 2013 video!\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "title" : {
+        "group" : 1,
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Gallery"
+      }
+    },
+    "home" : {
+      "content" : {
+        "label" : "Main Content",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"href\":\"http://www.ttff.org/\",\"target\":\"_blank\",\"url\":\"http://www.ttff.org/\"}},\"1\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"href\":\"http://www.ttff.org/\",\"target\":\"_blank\",\"url\":\"http://www.ttff.org/\"}}},\"blocks\":[{\"key\":\"l6cp\",\"text\":\"Welcome to the twelfth year of Camp Celiac! At 138 acre Camp Arroyo, Camp Celiac 2018's campers, counselors, and junior counselors eat delicious gluten-free food and enjoy traditional camp activities such as a ropes course, rock climbing, zip-lining, boating, swimming, archery, arts and crafts, skit night, and outdoor sports. Three meals a day without having to ask if any of the foods are gluten free is life changing for many campers and staff!\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"72p7t\",\"text\":\"Camp Celiac recognizes The Taylor Family Foundation for again hosting our camp at Camp Arroyo. The Taylor Family Foundation's mission is to preserve the wellness and enhance the quality of life for children in Northern California with life-threatening and chronic illnesses, disabilities, and youth at risk through unique therapeutic experiences and support. For more information, please visit www.ttff.org.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":394,\"length\":12,\"key\":0}],\"data\":{}},{\"key\":\"eua15\",\"text\":\"Please consider a donation to The Taylor Family Foundation and to Camp Celiac! Donations to Camp Celiac cover many items specifically for Camp Celiac, such as crafts, medical supplies, DJ's, additional activities, our camp program's general and medical insurance, etc. Donations to The Taylor Family Foundation cover the substantial food, maintenance, and activity costs for all of the camps at Camp Arroyo (www.ttff.org).\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":408,\"length\":12,\"key\":1}],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Camp Celiac at Camp Arroyo"
+      }
+    },
+    "junior_counselor_registration" : {
+      "gap_year_message" : {
+        "label" : "Junior Counselor Gap Year Message",
+        "order" : 3,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"impp\",\"text\":\"In accordance with other TTFF camps, junior counselors must have a one-year gap between attending as a camper and serving as a junior counselor. That means if your child attended as a camper in 2017, they are not eligible to serve as a junior counselor until summer, 2019. This policy ensures that our jr. counselors are ready to make the transition from camper to camp staff.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "register_status_message" : {
+        "label" : "Registration Status Report Message",
+        "order" : 7,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"impp\",\"text\":\"For junior counselors registering by FEBRUARY 14th, we will inform you of your registration status by MARCH 5th.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":37,\"length\":13,\"style\":\"BOLD\"},{\"offset\":102,\"length\":9,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "registration_priority_message" : {
+        "header_value" : "Registration Priority",
+        "label" : "Registration Priority Message",
+        "order" : 5,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"url\":\"http://celiaccamp.com/client/app/assets/pdfs/northerncaliforniacounties.pdf\",\"target\":\"_blank\"}}},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"The bylaws of the Taylor Family Foundation require us to give priority to junior counselors from Northern California. Due to high demand, we can only accept junior counselors with celiac disease.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":97,\"length\":19,\"key\":0}],\"data\":{}}]}"
+      },
+      "text_section_1" : {
+        "label" : "First Text Section",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"8i14m\",\"text\":\" Campers ages 16-17 entering 11th grade or higher must register as a junior counselor. Campers who are 16 at the time of Camp  and entering 10th grade or lower may choose to register either as a junior counselor or a camper.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":14,\"length\":5,\"style\":\"BOLD\"},{\"offset\":29,\"length\":4,\"style\":\"BOLD\"},{\"offset\":103,\"length\":3,\"style\":\"BOLD\"},{\"offset\":125,\"length\":2,\"style\":\"BOLD\"},{\"offset\":140,\"length\":4,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_2" : {
+        "label" : "Second Text Section",
+        "order" : 4,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"27km6\",\"text\":\"There is only ONE session for Junior Counselors,  July 22 through July 28. Upon arriving at camp, junior counselors will be assigned a camper group with whom the counselor will spend most of his or her time and junior counselors will sleep in the cabins with younger campers.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":14,\"length\":3,\"style\":\"BOLD\"},{\"offset\":50,\"length\":7,\"style\":\"BOLD\"},{\"offset\":66,\"length\":7,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"189bn\",\"text\":\"Junior counselors arrive at Camp noon on July 22 for orientation/training along with the adult volunteer counselors.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":41,\"length\":7,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_3" : {
+        "label" : "Third Text Section",
+        "order" : 6,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"fne3d\",\"text\":\"On-line registration for junior counselors opens on February 1st. After you complete the registration process we will notify you by email as to whether we have a space availalbe or whether your junior counselor has been placed on a waitlist. A space at Camp Celiac is not guaranteed until you have received an email confirming registration and space availability.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":52,\"length\":12,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_4" : {
+        "label" : "Fourth Text Section",
+        "order" : 8,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"Registration Steps\",\"type\":\"header-three\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":18,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"9g5ae\",\"text\":\"New this year: each family will be asked to create a log-in (user name and password) which can be used to register multiple family members as well as to update or complete the registration process. Please click below to be directed to our new registration site. (Site active February 1).\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":287,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_5" : {
+        "label" : "Fifth Text Section",
+        "order" : 9,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"The registration charge is a non-refundable $25 for both enrolled and wait list spots. While we charge only $25 for Celiac Camp, we rely on donations to pay for much of our camp programming including archery, arts and crafts, medical supplies, a dance with a DJ, sports equipment, board games, inflatable obstacle course, etc. Please consider making a tax-deductible donation to support Camp Celiac at Camp Arroyo.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"emqgg\",\"text\":\"If paying registration fee by check, please make check payable and mail to:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Junior Counselor Registration"
+      }
+    },
+    "sample_menu" : {
+      "text_section_1" : {
+        "label" : "First Text Section",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"The menu changes year by year, so the foods on this sample menu may not necessarily be served next year.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "text_section_2" : {
+        "label" : "Second Text Section",
+        "order" : 3,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"href\":\"http://localhost:8080/client/app/assets/pdfs/celiac_camp_menu_2017.pdf\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"url\":\"http://localhost:8080/client/app/assets/pdfs/celiac_camp_menu_2017.pdf\"}}},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"For more detail, check out the full 2017 menu.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":31,\"length\":14,\"key\":0}],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Sample Menu"
+      }
+    },
+    "vendor_information" : {
+      "content" : {
+        "label" : "Main Content",
+        "order" : 2,
+        "type" : "textarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"4b1fl\",\"text\":\"For information about donating gluten-free products to camp, please contact Jamie Aguilar of The Taylor Family Foundation at fundraising@ttff.org.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "Vendor Information"
+      }
+    },
+    "what_people_say" : {
+      "-KsVFgtpFIKJHeSFWLi1" : {
+        "deletable" : true,
+        "group" : 2,
+        "header_value" : "E., Manhattan Beach, CA",
+        "label" : "Second Testimonial",
+        "order" : 4,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"edguu\",\"text\":\"Spending a session with people who can relate to you on a whole new level is such a wonderful and refreshing feeling to know that you are not alone. I didn't know anyone my age that had celiac before camp, and meeting the other counselors was awesome. Everyone has family and friends, but attending camp allows you a session to spend with your Celiac family!\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":358,\"style\":\"ITALIC\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsVHVE5wphlhaj6BeFM" : {
+        "deletable" : true,
+        "group" : 2,
+        "header_value" : "L., Nashua, NH",
+        "label" : "Third Testimonial",
+        "order" : 5,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"cl033\",\"text\":\"Being a counselor at Camp Celiac goes way beyond the GF Chocolate Chip cookies that are served (which happen to be extraordinary by the way!) It's about being a part of a team that understands the challenges of having to be gluten free and checking those at the door. To be a counselor at Camp Celiac is simply to know the joy of making a child smile, of teaching them a new skill, of watching them learn, of seeing friendships form that will last a lifetime and being part of those friendships. Expect to work hard, expect to have fun and most of all expect to make memories that will last well beyond the summer.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":614,\"style\":\"ITALIC\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsVHbO5HFQy_q68BWWA" : {
+        "deletable" : true,
+        "group" : 2,
+        "header_value" : "J., Paso Robles, CA",
+        "label" : "Fourth Testimonial",
+        "order" : 6,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"fbev5\",\"text\":\"The kids in my group made the celiac camp better than I imagined it could be. I wish that I could work with each child on an ongoing basis.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":139,\"style\":\"ITALIC\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsVHoKMU0_cR18I62Gd" : {
+        "deletable" : true,
+        "group" : 1,
+        "header_value" : "http://www.eastbayexpress.com/ebx/welcome-to-celiac-camp/Content?oid=1084335",
+        "label" : "East Bay Express Article Link",
+        "order" : 7,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"9qubl\",\"text\":\"East Bay Express Article\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "-KsVHxB7vM9vA5VaEudI" : {
+        "deletable" : true,
+        "group" : 1,
+        "header_value" : "https://www.eastbaytimes.com/2007/08/27/camp-arroyo-a-gluten-free-summerland/",
+        "label" : "Contra Costa Times Article Link",
+        "order" : 8,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"ejrc4\",\"text\":\"East Bay Times Article\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "link_1" : {
+        "deletable" : true,
+        "group" : 1,
+        "header_value" : "http://abc7news.com/archive/6328811/",
+        "label" : "ABC News Story Link",
+        "order" : 2,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"fbp4b\",\"text\":\"ABC News Story\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "link_adder" : {
+        "group" : 1,
+        "label" : "Add a Media Link",
+        "order" : 9007199254740991,
+        "type" : "addinputandtextarea"
+      },
+      "testimonial_1" : {
+        "deletable" : true,
+        "group" : 2,
+        "header_value" : "A., San Jose, CA",
+        "label" : "First Testimonial",
+        "order" : 3,
+        "type" : "inputandtextarea",
+        "value" : "{\"entityMap\":{},\"blocks\":[{\"key\":\"1uh9v\",\"text\":\"Camp Celiac was by far the best session of my entire life! Witnessing and feeling the connections with the children, as well as with the other counselors and volunteers was beyond describable. I was literally brought to tears. Next year cannot come fast enough!\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":261,\"style\":\"ITALIC\"}],\"entityRanges\":[],\"data\":{}}]}"
+      },
+      "testimonial_adder" : {
+        "group" : 2,
+        "label" : "Add a Testimonial",
+        "order" : 9007199254740991,
+        "type" : "addinputandtextarea"
+      },
+      "title" : {
+        "label" : "Title",
+        "order" : 1,
+        "type" : "input",
+        "value" : "What People Say"
+      }
+    }
+  }
+}

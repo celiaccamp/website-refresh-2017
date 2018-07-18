@@ -4,11 +4,7 @@ import { Menu, Divider } from 'semantic-ui-react';
 const AdminNavigation = ({ handleSelectedChange }) => (
   <div className="admin-navigation">
     <Menu vertical fluid borderless attached="top">
-      <Menu.Item
-        header
-      >
-        Select a Component
-      </Menu.Item>
+      <Menu.Item header>Select a Component</Menu.Item>
       <Divider />
       <Menu.Item name="home" onClick={handleSelectedChange}>
         Home
@@ -41,7 +37,7 @@ const AdminNavigation = ({ handleSelectedChange }) => (
         Gallery
       </Menu.Item>
       <Menu.Item name="donations_and_payment" onClick={handleSelectedChange}>
-        Donations & Payment
+        Donations
       </Menu.Item>
       <Divider />
       <Menu.Item name="camp_watch" onClick={handleSelectedChange}>

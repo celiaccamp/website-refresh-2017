@@ -13,7 +13,9 @@ import NotFound from './NotFound';
 import DataCheckWrapper from './DataCheckWrapper';
 import ConfirmationModal from './ConfirmationModal';
 
-function PrivateRoute({ component: PassedComponent, authed, additionalProps, ...rest }) {
+function PrivateRoute({
+  component: PassedComponent, authed, additionalProps, ...rest
+}) {
   return (
     <Route
       {...rest}
@@ -26,7 +28,9 @@ function PrivateRoute({ component: PassedComponent, authed, additionalProps, ...
   );
 }
 
-function PublicRoute({ component: PassedComponent, authed, additionalProps, ...rest }) {
+function PublicRoute({
+  component: PassedComponent, authed, additionalProps, ...rest
+}) {
   return (
     <Route
       {...rest}
@@ -40,7 +44,6 @@ function PublicRoute({ component: PassedComponent, authed, additionalProps, ...r
 }
 
 export default class Admin extends React.PureComponent {
-
   state = {
     authed: false,
     selected: 'home',
@@ -87,7 +90,9 @@ export default class Admin extends React.PureComponent {
   clearChanged = () => this.setState({ changed: false })
 
   render() {
-    const { data, selected, confirmation, next } = this.state;
+    const {
+      data, selected, confirmation, next,
+    } = this.state;
 
     const pages = {
       home: {
@@ -168,7 +173,8 @@ export default class Admin extends React.PureComponent {
           confirmation && <ConfirmationModal
             next={() => { this.setState({ selected: next, changed: false, confirmation: false }); }}
             cancel={() => { this.setState({ confirmation: false }); }}
-          >Are you sure you want to switch pages? Any changes will be lost</ConfirmationModal>
+          >Are you sure you want to switch pages? Any changes will be lost
+          </ConfirmationModal>
         }
         {!pages[selected].data && <Dimmer active><Loader content="Loading Dashboard" /></Dimmer>}
 
@@ -201,8 +207,8 @@ export default class Admin extends React.PureComponent {
                     }
                     component={DataCheckWrapper}
                   />
-                  <PublicRoute authed={this.state.authed} path={'/admin'} component={Login} />
-                  <PublicRoute authed={this.state.authed} path={'/admin/login'} component={Login} />
+                  <PublicRoute authed={this.state.authed} path="/admin" component={Login} />
+                  <PublicRoute authed={this.state.authed} path="/admin/login" component={Login} />
                   <Route component={NotFound} />
                 </Switch>
               </Grid.Column>

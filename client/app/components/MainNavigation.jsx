@@ -53,7 +53,7 @@ const MainNavigation = ({ data, handleClick }) => (
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Menu.Item as="a" onClick={handleClick} name="donationsandpayment">
+      <Menu.Item as="a" onClick={handleClick} name="donations">
         Donations
       </Menu.Item>
       <Menu.Menu position="right" className="computer-only">

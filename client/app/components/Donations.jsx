@@ -15,7 +15,7 @@ const donationOptions = [
   { text: '$2000', value: 2000 },
 ];
 
-export default class DonationsAndPayment extends React.PureComponent {
+export default class Donations extends React.PureComponent {
   state = { amount: 50, acknowledge: 'Yes', donationOptions };
 
   handleAmountChange = (e, { value }) => {

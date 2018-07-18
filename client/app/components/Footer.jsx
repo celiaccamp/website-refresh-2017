@@ -71,7 +71,7 @@ const Footer = ({ data }) => (
               <Divider section />
               <List horizontal divided link>
                 <List.Item>
-                  <Link to="/donationsandpayment">
+                  <Link to="/donations">
                   Donate
                   </Link>
                 </List.Item>
